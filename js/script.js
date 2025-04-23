@@ -1,6 +1,6 @@
 async function loadTables() {
-  const linksResponse = await fetch('links.json');
-  const layoutResponse = await fetch('layout.json');
+  const linksResponse = await fetch('links.json?nocache=' + new Date().getTime());
+  const layoutResponse = await fetch('layout.json?nocache=' + new Date().getTime());
   const links = await linksResponse.json();
   const layout = await layoutResponse.json();
 
