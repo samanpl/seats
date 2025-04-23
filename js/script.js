@@ -13,7 +13,7 @@ async function loadTables() {
 
       if (links[table]) {
         div.classList.add('linked');
-        div.onclick = () => window.location.href = links[table];
+        div.onclick = () => window.open(links[table], '_blank');
       } else {
         div.onclick = () => showForm(table);
       }
