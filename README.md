@@ -27,6 +27,7 @@ You need **Python 3.x** installed on your system.
 > ⚠️ Opening index.html directly with file:// will not work due to browser CORS restrictions.
 
 ## 📁 Project Structure
+```bash
 📦 seats/
 ├── index.html         # Main HTML file
 ├── links.json         # Contains mapping of table numbers to external links
@@ -35,6 +36,7 @@ You need **Python 3.x** installed on your system.
     ├── style.css      # CSS for layout and design
 ├── ./js
     └── script.js      # JavaScript to generate the grid and handle interaction
+```
 
 ## ✨ Features
 ✅ Linked seats open in new tabs
