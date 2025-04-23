@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library Table Map</title>
+  <link rel="stylesheet" type="text/css" href="./assets/style.css">
+</head>
+<body>
+  <h1 style="text-align:center">Library Table Map</h1>
+  <div class="grid" id="table-grid"></div>
+
+  <div class="form-container" id="form-container" style="display:none">
+    <form action="https://formspree.io/f/xnndqbal" method="POST">
+      <label>Seat Number:
+        <input type="text" name="seat" id="seat-input" readonly>
+      </label>
+      <label>Your email:
+        <input type="email" name="email" required>
+      </label>
+      <label>Link:
+        <input type="text" name="message" placeholder="Enter the link">
+      </label>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+</html>
